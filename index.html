@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Your Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #2c3e50;
+            color: #fff;
+            text-align: center;
+            padding: 2.8rem 0;
+            position: relative;
+        }
+        header h1{
+            margin-top: 100px;
+        }
+        header p{
+            margin-bottom: -10px;
+        }
+        
+
+        .profile-picture {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+            position: absolute;
+            top: 30px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        nav {
+            background-color: #34495e;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+        }
+
+        .section-content {
+            background-color: #fff;
+            padding: 2rem;
+            margin: 1rem auto;
+            max-width: 800px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: justify;
+        }
+
+        .download-button {
+            background-color: #2980b9;
+            color: #fff;
+            padding: 10px 15px;
+            text-decoration: none;
+            border-radius: 5px;
+            display: inline-block;
+            margin-top: 10px;
+        }
+
+        .download-button:hover {
+            background-color: #1c598a;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background-color: #2c3e50;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="my prof.jpg" alt="Your Profile Picture" class="profile-picture">
+        <h1>Sreedhar. KP</h1>
+        <p>BCA Student | Developer</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#resume">Resume</a></li>
+        </ul>
+    </nav>
+
+    <section id="about">
+        <div class="section-content">
+            <h2>About Me</h2>
+            <p>I have a strong passion for logical problem-solving and enjoy interpreting and tackling complex challenges.
+
+                During my first year, I had the privilege of applying my skills to real-time projects, including Bloodline, and I secured first prize in the coding contest at my college. To further enhance my knowledge, I pursued LinkedIn certification courses and Artificial Intelligence courses offered by Microsoft. Completing the AI course provided me with an incredible opportunity to be part of the Microsoft AI Tour, where I had the honor of meeting Microsoft CEO Satya Nadella and other esteemed officials.
+                
+                My objective is to secure a position in a top-reputed organization in our country, and I am systematically working towards it. I excel as a team player, possess strong organizational skills, and take pride in completing tasks efficiently and on time.</p>
+        </div>
+    </section>
+
+    <section id="education">
+        <div class="section-content">
+            <h2>Education</h2>
+            <p>Terf's Academy College of Arts and science - BCA</p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="section-content">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML, CSS, JavaScript</li>
+                <li>Python, Java, C++, C</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="section-content">
+            <h2>Projects</h2>
+            <ul>
+                <li><a href="#">Blood Line</a></li>
+                <li><a href="#">Luxuary Hotels</a></li>
+                <li><a href="#">Weather App</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="resume">
+        <div class="section-content">
+            <h2>Resume</h2>
+            <a href="Sreedhar Resume.pdf" target="_blank" class="download-button">Download CV</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 sreedhar</p>
+    </footer>
+</body>
+</html>
